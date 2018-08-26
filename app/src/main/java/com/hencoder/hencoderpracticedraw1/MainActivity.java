@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        pager.setCurrentItem(9);
         tabLayout = (TabLayout) findViewById(R.id.tabLayout);
         tabLayout.setupWithViewPager(pager);
     }
